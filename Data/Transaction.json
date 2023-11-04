@@ -1,0 +1,45 @@
+{
+    "accountTransactions": [
+      {
+        "AccountNumber": "ACCT1001",
+        "Location": "Store A",
+        "Amount": 50.00,
+        "PlaceName": "Grocery Shopping",
+        "Date": "2023-11-01",
+        "Category": "Groceries"
+      },
+      {
+        "AccountNumber": "ACCT1001",
+        "Location": "Restaurant X",
+        "Amount": 75.50,
+        "PlaceName": "Dining Out",
+        "Date": "2023-11-05",
+        "Category": "Dining"
+      },
+      {
+        "AccountNumber": "ACCT2001",
+        "Location": "Online Store B",
+        "Amount": 120.00,
+        "PlaceName": "Online Shopping",
+        "Date": "2023-11-03",
+        "Category": "Shopping"
+      },
+      {
+        "AccountNumber": "ACCT3001",
+        "Location": "Gas Station C",
+        "Amount": 40.25,
+        "PlaceName": "Fuel Purchase",
+        "Date": "2023-11-02",
+        "Category": "Fuel"
+      },
+      {
+        "AccountNumber": "ACCT3001",
+        "Location": "Cinema D",
+        "Amount": 30.00,
+        "PlaceName": "Movie Night",
+        "Date": "2023-11-04",
+        "Category": "Entertainment"
+      }
+    ]
+  }
+  

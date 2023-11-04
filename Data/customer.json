@@ -1,0 +1,23 @@
+{
+    "customers": [
+      {
+        "customerID": 1,
+        "Name": "John Doe",
+        "email":"JohnDoe@gmail.com",
+        "Password": "password123"
+      },
+      {
+        "customerID": 2,
+        "Name": "Jane Smith",
+        "email":"Jane123@gmail.com",
+        "Password": "securepass"
+      },
+      {
+        "customerID": 3,
+        "Name": "Alice Johnson",
+        "email":"Alice@gmail.com",
+        "Password": "myp@ssw0rd"
+      }
+    ]
+  }
+  

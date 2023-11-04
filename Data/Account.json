@@ -1,0 +1,20 @@
+{
+    "accounts": [
+      {
+        "customerID": 1,
+        "AccountNumber": "ACCT1001",
+        "LoyaltyPoint": 500
+      },
+      {
+        "customerID": 2,
+        "AccountNumber": "ACCT2001",
+        "LoyaltyPoint": 750
+      },
+      {
+        "customerID": 3,
+        "AccountNumber": "ACCT3001",
+        "LoyaltyPoint": 300
+      }
+    ]
+  }
+  

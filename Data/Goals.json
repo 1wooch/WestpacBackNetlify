@@ -1,0 +1,35 @@
+{
+    "goals": [
+      {
+        "CustomerID": 1,
+        "GoalName": "Vacation",
+        "GoalURL": "https://example.com/vacation",
+        "GoalAmount": 2000.00,
+        "GoalPicture": "vacation.jpg",
+        "GoalStartDate": "2023-01-15",
+        "GoalFinishDate": "2023-12-31",
+        "CurrentSave": 750.00
+      },
+      {
+        "CustomerID": 2,
+        "GoalName": "New Car",
+        "GoalURL": "https://example.com/newcar",
+        "GoalAmount": 25000.00,
+        "GoalPicture": "car.jpg",
+        "GoalStartDate": "2023-02-20",
+        "GoalFinishDate": "2024-12-31",
+        "CurrentSave": 1200.00
+      },
+      {
+        "CustomerID": 3,
+        "GoalName": "Home Renovation",
+        "GoalURL": "https://example.com/renovation",
+        "GoalAmount": 10000.00,
+        "GoalPicture": "renovation.jpg",
+        "GoalStartDate": "2023-03-10",
+        "GoalFinishDate": "2023-11-30",
+        "CurrentSave": 250.00
+      }
+    ]
+  }
+  

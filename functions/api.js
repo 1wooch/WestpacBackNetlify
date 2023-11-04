@@ -4,18 +4,9 @@ const app = express();
 const serverless = require('serverless-http');
 const axios = require('axios');
 const cheerio = require('cheerio');
+const {authenticate} = require('./Login');
 
 
-
-router.get('/', (req, res) => {
-res.json([
-    {
-        id: 1,
-        name: 'John',
-        email: 'onchoo1106@gmail.com',
-    }
-])
-});
 
 router.get('/JBscrape', async (req, res) => {
     const { url } = req.query;
@@ -91,6 +82,27 @@ router.get('/JBscrape', async (req, res) => {
     }
   });
   
+
+
+router.get('/login', async (req, res) => {
+
+  const { email, password } = req.body;
+
+  try {
+    const result = await authenticate(email, password);
+
+    if (result.success) {
+      res.status(200).json(result);
+    } else {
+      res.status(result.success ? 200 : 401).json(result);
+    }
+  } catch (err) {
+    res.status(500).json({ message: `Internal server error: ${err.message}` });
+  }
+});
+
+
+
 app.use('/.netlify/functions/api', router);
 module.exports.handler = serverless(app);
 
